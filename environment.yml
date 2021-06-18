@@ -3,11 +3,15 @@ channels:
   - defaults
 dependencies:
   - python=3.6
-  - json
+  - cython
+  - ipython
+  - ipyparallel
+  - ipywidgets
   - numpy
   - matplotlib
-  - decimal
-  - functools
-  - statistics
-  - time
-  - math
+  - mpi4py
+  - networkx
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - sympy
